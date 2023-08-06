@@ -103,7 +103,7 @@ At the end of the analysis you can conclude that the bill length and
 depth are negatively correlated. But, what if we’re missing relevant
 information?
 
-As we noticed at the beginning, one the variables collected in the
+As we noticed at the beginning, one of the variables collected in the
 dataset are the species each penguin belongs to. Three different species
 are available (Adelie, Chinstrap and Gentoo).
 
