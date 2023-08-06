@@ -87,13 +87,8 @@ p1
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-    ## Warning: Removed 2 rows containing non-finite values (`stat_smooth()`).
+![unnamed-chunk-3-1](https://github.com/MiguelOmarBH/The_Simpson_Paradox/assets/135857016/e682ff8c-714c-4c0d-882f-f5dd0cfc2fff)
 
-    ## Warning: Removed 2 rows containing non-finite values (`stat_cor()`).
-
-    ## Warning: Removed 2 rows containing missing values (`geom_point()`).
-
-![](simpson_paradox_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
 The scatterplot shows us a significant and negative relationship between
 the bill depth and the bill length of the penguins. That is, the wider
@@ -128,13 +123,8 @@ p2
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-    ## Warning: Removed 2 rows containing non-finite values (`stat_smooth()`).
+![unnamed-chunk-4-1](https://github.com/MiguelOmarBH/The_Simpson_Paradox/assets/135857016/b2fd633c-fc1a-40b4-89c4-12201f905701)
 
-    ## Warning: Removed 2 rows containing non-finite values (`stat_cor()`).
-
-    ## Warning: Removed 2 rows containing missing values (`geom_point()`).
-
-![](simpson_paradox_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 Wow! Using the same data, now we found that there’s a significant,
 moderate to high positive relationship between the bill depth and
@@ -163,23 +153,8 @@ paradox at a glance:
 ggarrange(p1, p2, legend = "none") %>% annotate_figure(top = text_grob("The Simpson's Paradox", size = 15))
 ```
 
-    ## `geom_smooth()` using formula = 'y ~ x'
+![unnamed-chunk-5-1](https://github.com/MiguelOmarBH/The_Simpson_Paradox/assets/135857016/aa92e7f8-6840-4480-962e-5c49a85c44d1)
 
-    ## Warning: Removed 2 rows containing non-finite values (`stat_smooth()`).
-
-    ## Warning: Removed 2 rows containing non-finite values (`stat_cor()`).
-
-    ## Warning: Removed 2 rows containing missing values (`geom_point()`).
-
-    ## `geom_smooth()` using formula = 'y ~ x'
-
-    ## Warning: Removed 2 rows containing non-finite values (`stat_smooth()`).
-
-    ## Warning: Removed 2 rows containing non-finite values (`stat_cor()`).
-
-    ## Warning: Removed 2 rows containing missing values (`geom_point()`).
-
-![](simpson_paradox_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ## Conclusions
 
